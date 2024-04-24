@@ -1,0 +1,268 @@
+const data = [
+  {
+    "FULL NAME": "Course Title: Software Engineering",
+    "MATRIC": "Course Code: CPE 535",
+    "CA/40": "",
+    "Total Exam/60": "",
+    "Total/100": ""
+  },
+  {
+    "FULL NAME": "NAME",
+    "MATRIC": "MATRIC NO",
+    "CA/40": "CA/40",
+    "Total Exam/60": "Exam/60",
+    "Total/100": "Total/100"
+  },
+  {
+    "FULL NAME": "OLOYEDE MARIAM OLUWATOSIN",
+    "MATRIC": 170408002,
+    "CA/40": 29.5,
+    "Total Exam/60": 53.5,
+    "Total/100": 83
+  },
+  {
+    "FULL NAME": "OSUALA JUSTIN CALEB",
+    "MATRIC": 170408004,
+    "CA/40": 24,
+    "Total Exam/60": 26,
+    "Total/100": 50
+  },
+  {
+    "FULL NAME": "ADEJUMO OMOTOLANI AYOMIDE",
+    "MATRIC": 170408005,
+    "CA/40": 27.5,
+    "Total Exam/60": 44.5,
+    "Total/100": 72
+  },
+  {
+    "FULL NAME": "OLATUNJI SHARON DAVID",
+    "MATRIC": 170408007,
+    "CA/40": 29.5,
+    "Total Exam/60": 42.5,
+    "Total/100": 72
+  },
+  {
+    "FULL NAME": "OTOKITI FISAYO OLUWABUKOLA",
+    "MATRIC": 170408008,
+    "CA/40": 29.5,
+    "Total Exam/60": 48.5,
+    "Total/100": 78
+  },
+  {
+    "FULL NAME": "TAIWO OLUWASEUNBABARA HEPHZIBAH",
+    "MATRIC": 170408009,
+    "CA/40": 29,
+    "Total Exam/60": 35,
+    "Total/100": 64
+  },
+  {
+    "FULL NAME": "OLUSANYA OLUWATOBI JOSEPH",
+    "MATRIC": 170408010,
+    "CA/40": 35,
+    "Total Exam/60": 49,
+    "Total/100": 84
+  },
+  {
+    "FULL NAME": "ARIMORO OLUWATOBA CALEB",
+    "MATRIC": 170408011,
+    "CA/40": 29,
+    "Total Exam/60": 52,
+    "Total/100": 81
+  },
+  {
+    "FULL NAME": "BABATUNDE MUBARAQ OLALEKAN",
+    "MATRIC": 170408015,
+    "CA/40": 21,
+    "Total Exam/60": 49,
+    "Total/100": 70
+  },
+  {
+    "FULL NAME": "UDE CHIDERAA EBENEZER",
+    "MATRIC": 170408017,
+    "CA/40": 29,
+    "Total Exam/60": 42,
+    "Total/100": 71
+  },
+  {
+    "FULL NAME": "OYAWOLE OLUWADAMILOLA ANUOLUWAPO",
+    "MATRIC": 170408019,
+    "CA/40": 35,
+    "Total Exam/60": 53,
+    "Total/100": 88
+  },
+  {
+    "FULL NAME": "OMAKACHUKWU ODINAKACHUKWU",
+    "MATRIC": 170408022,
+    "CA/40": 27.5,
+    "Total Exam/60": 36.5,
+    "Total/100": 64
+  },
+  {
+    "FULL NAME": "AKINADE AYOOLUWA AYOADE",
+    "MATRIC": 170408023,
+    "CA/40": 29.5,
+    "Total Exam/60": 48.5,
+    "Total/100": 78
+  },
+  {
+    "FULL NAME": "OLUTOMIWA OLAJUMOKE O. ",
+    "MATRIC": 170408024,
+    "CA/40": 27.5,
+    "Total Exam/60": 37.5,
+    "Total/100": 65
+  },
+  {
+    "FULL NAME": "ASALU PAUL OPEYEMI ",
+    "MATRIC": 170408025,
+    "CA/40": 27,
+    "Total Exam/60": 45,
+    "Total/100": 72
+  },
+  {
+    "FULL NAME": "OLADIPUPO OLUWATOBI",
+    "MATRIC": 170408027,
+    "CA/40": 23.5,
+    "Total Exam/60": 21.5,
+    "Total/100": 45
+  },
+  {
+    "FULL NAME": "CHIDI IHECHUKWU JOSE MARIA",
+    "MATRIC": 170408028,
+    "CA/40": 21.5,
+    "Total Exam/60": 49.5,
+    "Total/100": 71
+  },
+  {
+    "FULL NAME": "IKUOMOLA OLAMIDE",
+    "MATRIC": 170408029,
+    "CA/40": 33.5,
+    "Total Exam/60": 54.5,
+    "Total/100": 88
+  },
+  {
+    "FULL NAME": "EKEKEZIE CHIAZŌR OLUWATOBI",
+    "MATRIC": 170408030,
+    "CA/40": 28.5,
+    "Total Exam/60": 52.5,
+    "Total/100": 81
+  },
+  {
+    "FULL NAME": "ADEBIYI SEMINIRE DEBORAH",
+    "MATRIC": 170408031,
+    "CA/40": 29,
+    "Total Exam/60": 52,
+    "Total/100": 81
+  },
+  {
+    "FULL NAME": "OLOTON JOSHUA OSAYANEDE",
+    "MATRIC": 170408033,
+    "CA/40": 32.5,
+    "Total Exam/60": 49.5,
+    "Total/100": 82
+  },
+  {
+    "FULL NAME": "ABAH SUCCESS MONDAY",
+    "MATRIC": 170408034,
+    "CA/40": 29.5,
+    "Total Exam/60": 40.5,
+    "Total/100": 70
+  },
+  {
+    "FULL NAME": "AWOYEMI ABIOLA",
+    "MATRIC": 170408037,
+    "CA/40": 20.5,
+    "Total Exam/60": 49.5,
+    "Total/100": 70
+  },
+  {
+    "FULL NAME": "TIJANI ABISOYE DEBORAH",
+    "MATRIC": 170408041,
+    "CA/40": 35,
+    "Total Exam/60": 53,
+    "Total/100": 88
+  },
+  {
+    "FULL NAME": "ALIYU ISRAEL ADAVIZE",
+    "MATRIC": 170408043,
+    "CA/40": 29.5,
+    "Total Exam/60": 41.5,
+    "Total/100": 71
+  },
+  {
+    "FULL NAME": "BANIRE ADESHINA",
+    "MATRIC": 170408044,
+    "CA/40": 0,
+    "Total Exam/60": 0,
+    "Total/100": 0
+  },
+  {
+    "FULL NAME": "MICHAEL OBI EJIOFOR",
+    "MATRIC": 170408045,
+    "CA/40": 29,
+    "Total Exam/60": 45,
+    "Total/100": 74
+  },
+  {
+    "FULL NAME": "EDWARD FUMNANYA PROSPER",
+    "MATRIC": 170408047,
+    "CA/40": 29.5,
+    "Total Exam/60": 52.5,
+    "Total/100": 82
+  },
+  {
+    "FULL NAME": "OKPARA DANIEL ",
+    "MATRIC": 180408501,
+    "CA/40": 34.5,
+    "Total Exam/60": 48.5,
+    "Total/100": 83
+  },
+  {
+    "FULL NAME": "OKEKE EBUBE",
+    "MATRIC": 180408502,
+    "CA/40": 27.5,
+    "Total Exam/60": 45.5,
+    "Total/100": 73
+  },
+  {
+    "FULL NAME": "OGUNTOLU DANIEL",
+    "MATRIC": 180408503,
+    "CA/40": 21.5,
+    "Total Exam/60": 38.5,
+    "Total/100": 60
+  },
+  {
+    "FULL NAME": "ONWUASOANYA JOSHUA I.",
+    "MATRIC": 180408504,
+    "CA/40": 27,
+    "Total Exam/60": 53,
+    "Total/100": 80
+  },
+  {
+    "FULL NAME": "OKOGHENUN CONFIDENCE",
+    "MATRIC": 180408505,
+    "CA/40": 35,
+    "Total Exam/60": 45,
+    "Total/100": 80
+  },
+  {
+    "FULL NAME": "EBOZUE HENRY IFEANYI",
+    "MATRIC": 180408506,
+    "CA/40": 31.5,
+    "Total Exam/60": 48.5,
+    "Total/100": 80
+  },
+  {
+    "FULL NAME": "OLADIPUPO STEPHEN T.",
+    "MATRIC": 180408507,
+    "CA/40": 25,
+    "Total Exam/60": 45,
+    "Total/100": 70
+  },
+  {
+    "FULL NAME": "MORAKINYO ISRAEL OLUWAPELUMI",
+    "MATRIC": 180408508,
+    "CA/40": 35,
+    "Total Exam/60": 38,
+    "Total/100": 73
+  }
+];
