@@ -2,8 +2,8 @@ const checkButton = document.querySelector('.check')
 const textBox = document.querySelector('.matric') 
 //set initials
 
-const courseTitle = 'Digital Electronics'
-const courseCode = 'CPE 419'
+const courseTitle = ''
+const courseCode = 'CPE 535'
 
 let container = document.querySelector('.result-container')
 const error = document.querySelector('.error')
