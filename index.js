@@ -2,7 +2,7 @@ const checkButton = document.querySelector('.check')
 const textBox = document.querySelector('.matric') 
 //set initials
 
-const courseTitle = ''
+const courseTitle = 'Software Engineering'
 const courseCode = 'CPE 535'
 
 let container = document.querySelector('.result-container')
